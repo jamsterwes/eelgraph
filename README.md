@@ -13,3 +13,8 @@ chart = Doughnut({
 
 eelgraph.plot(chart, title="Secrets of the Universe")
 ```
+
+## Installation
+```
+python3 setup.py install
+```
