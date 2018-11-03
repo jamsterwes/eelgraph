@@ -1,4 +1,4 @@
-import colors
+import eelgraph.colors as colors
 import json
 
 
