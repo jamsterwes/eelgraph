@@ -40,13 +40,13 @@ class Line(Chart):
     def __init__(self, data=[], *args, lines=1, labels=None, radius=2.5,
                  fill=None, smooth=None, color=None):
         self.data = data
+        self.lines = lines
         if labels is None:
             self.labels = [""
                            for _ in range(self.lines)]
         else:
             self.labels = labels
         self.radius = radius
-        self.lines = lines
         if color is None:
             self.colors = [colors.randomColor(colorSet=colors.best)
                            for _ in range(self.lines)]
